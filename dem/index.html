@@ -1,0 +1,84 @@
+<!-- it tells the browser that the document type is html 5 -->
+<!DOCTYPE html>
+<!-- it is html tag and it indicates the starting of our html file -->
+<html lang="en">
+  <!-- it is head tag and all the main information about out file are stored here -->
+  <head>
+    <!-- see more about meta tag in documentation, here it included charset which encodes the characters correctly -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- gives title to the web page -->
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+
+  </head>
+  <!-- all the body of our document will be written here -->
+  <body>
+    <h1>this a level 1 heading</h1>
+    <!-- it is used to create space/break and it do not require a closing tag -->
+    <br />
+    <p>it is a paragraph tag</p>
+    <!-- it is a horizontal line/rule, see the attributes in documentation to modify the appereance -->
+    <p><em>this is emphasis tag and should be used in place of italics</em></p>
+    <p class="strong">
+      <strong>this a strong tag and should be used in place of bold</strong>
+    </p>
+    <hr>
+
+    <!-- lists -->
+    <!-- unordered lists -->
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <ul>
+            <li>four</li>
+            <li>five</li>
+        </ul>
+    </ul>
+    <!-- ordered lists -->
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <ol type="i">
+            <li>one</li>
+            <li>two</li>
+        </ol>
+    </ol>
+    <!-- image -->
+    <img src="" alt="">
+    <!-- anchor tag -->
+    <a href="www.google.com">google</a>
+    <!-- tables -->
+    <table cellspacing="20" border="2%">
+        <thead>
+            <th>name</th>
+            <th>age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>jatin</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>lupu</td>
+                <td>56</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+    <!-- forms, advance forms require javascript,check attributes-->
+    <form action="mailto:">
+        <label for="name">name: </label>
+        <input type="text" name="your name:"><br>
+        <label for="date">dob: </label>
+        <input type="date">
+    </form>
+    
+    <!-- remember class,id,pseudo classes and divs -->
+
+  </body>
+</html>

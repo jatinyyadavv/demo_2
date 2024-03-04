@@ -1,0 +1,13 @@
+body{
+    background-color: pink
+}
+h1{
+    color: rgb(76, 164, 247);
+}
+h3{
+    color: beige;
+}
+.strong{
+    color: brown;
+    text-shadow: 4px;
+}
